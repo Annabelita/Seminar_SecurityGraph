@@ -1,0 +1,1542 @@
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 0 ----------
+Round 0
+Defender protects: Node with label <Noch nicht aufgerufenes Dokument entschlüsselt & gelesen> and ID <60>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Kryptographie WebApp> and ID <23>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 89.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Attacker attacks Node with label <Dokumente verschlüsselt> and ID <55>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 46.0
+Attacker Value: 93.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <Kryptographie WebApp> and ID <23>
+~~~~ Result: 
+Defender Value: 30.0
+Attacker Value: 83.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 14.0
+Attacker Value: 83.34
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Brute Force Email & Passwort erfolgreich> and ID <54>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Attacker attacks Node with label <Authentifizierung> and ID <22>
+~~~~ Result: 
+Defender Value: -2.0
+Attacker Value: 81.34
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -2.0
+Value of Attacker: 81.34
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 1 ----------
+Round 0
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 99.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Noch nicht aufgerufenes Dokument entschlüsselt & gelesen> and ID <60>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 99.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 20.0
+Attacker Value: 99.01
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Brute Force Email & Passwort erfolgreich> and ID <54>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Attacker attacks Node with label <Information Disclosure MobileApp> and ID <4>
+~~~~ Result: 
+Defender Value: 4.0
+Attacker Value: 95.01
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Attacker attacks Node with label <adb logcat> and ID <32>
+~~~~ Result: 
+Defender Value: -12.0
+Attacker Value: 92.01
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -12.0
+Value of Attacker: 92.01
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 0
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 2 ----------
+Round 0
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Attacker attacks Node with label <Authentifizierung> and ID <22>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 97.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 97.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 97.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 20.0
+Attacker Value: 97.01
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Attacker attacks Node with label <Information Disclosure MobileApp> and ID <4>
+~~~~ Result: 
+Defender Value: 4.0
+Attacker Value: 93.01
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Attacker attacks Node with label <adb logcat> and ID <32>
+~~~~ Result: 
+Defender Value: -12.0
+Attacker Value: 90.01
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -12.0
+Value of Attacker: 90.01
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 0
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 3 ----------
+Round 0
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <XSS> and ID <12>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 91.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <Schadhafter Payload> and ID <13>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 85.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <HTML Code> and ID <16>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 80.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Brute Force Email & Passwort erfolgreich> and ID <54>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Brute Force Email & Passwort erfolgreich> and ID <54>
+Attacker attacks Node with label <Session Hijacking> and ID <17>
+~~~~ Result: 
+Defender Value: 20.0
+Attacker Value: 77.67
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Daten verschlüsselt & Opfer erpresst> and ID <58>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Attacker attacks Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 0.0
+Attacker Value: 79.67
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: 0.0
+Value of Attacker: 79.67
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 4 ----------
+Round 0
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Information Disclosure WebApp> and ID <20>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 96.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Attacker attacks Node with label <Brute Force Email & Passwort> and ID <21>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 95.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Attacker attacks Node with label <Handynummer ausgelesen> and ID <51>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 30.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Attacker attacks Node with label <Brute Force Email & Passwort> and ID <21>
+~~~~ Result: 
+Defender Value: 14.0
+Attacker Value: 98.67
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Attacker attacks Node with label <Information Disclosure WebApp> and ID <20>
+~~~~ Result: 
+Defender Value: -2.0
+Attacker Value: 95.67
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -2.0
+Value of Attacker: 95.67
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 5 ----------
+Round 0
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Brute Force Email & Passwort erfolgreich> and ID <54>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 99.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Kryptographie Browser> and ID <11>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 98.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Attacker attacks Node with label <Daten Verschlüsselt> and ID <40>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 16.0
+Attacker Value: 100.34
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Attacker attacks Node with label <Kryptographie Browser> and ID <11>
+~~~~ Result: 
+Defender Value: 0.0
+Attacker Value: 99.34
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: 0.0
+Value of Attacker: 99.34
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 6 ----------
+Round 0
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <Unsicherer Export> and ID <7>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 97.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 97.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 97.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Defender protects: Node with label <Daten verschlüsselt & Opfer erpresst> and ID <58>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 20.0
+Attacker Value: 97.01
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 4.0
+Attacker Value: 97.01
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: -12.0
+Attacker Value: 96.68
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -12.0
+Value of Attacker: 96.68
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 0
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 7 ----------
+Round 0
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <Noch nicht aufgerufenes Dokument entschlüsselt & gelesen> and ID <60>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Attacker attacks Node with label <Authentifizierung> and ID <22>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 97.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+~~~~ Result: 
+Defender Value: 51.0
+Attacker Value: 0.0
+
+
+########## RESULTS ################
+Winner: Defender
+Value of Defender: 51.0
+Value of Attacker: 0.0
+Played rounds: 2
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 0
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 8 ----------
+Round 0
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Attacker attacks Node with label <Unsicherer Export> and ID <7>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 97.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Attacker attacks Node with label <Nichts exportiert - Fail!> and ID <35>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 54.0
+Attacker Value: 93.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Unsicherer Export> and ID <7>
+~~~~ Result: 
+Defender Value: 38.0
+Attacker Value: 91.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Attacker attacks Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 19.0
+Attacker Value: 92.67
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Attacker attacks Node with label <Unsicherer Export> and ID <7>
+~~~~ Result: 
+Defender Value: 3.0
+Attacker Value: 90.67
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <Noch nicht aufgerufenes Dokument entschlüsselt & gelesen> and ID <60>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Attacker attacks Node with label <Nichts exportiert - Fail!> and ID <35>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: -11.0
+Attacker Value: 86.67
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -11.0
+Value of Attacker: 86.67
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 3
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 9 ----------
+Round 0
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Daten verschlüsselt & Opfer erpresst> and ID <58>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Attacker attacks Node with label <Kryptographie WebApp> and ID <23>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 89.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Attacker attacks Node with label <Überschreiben des Public Key> and ID <24>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 86.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Attacker attacks Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 30.0
+Attacker Value: 90.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Attacker attacks Node with label <Überschreiben des Public Key> and ID <24>
+~~~~ Result: 
+Defender Value: 14.0
+Attacker Value: 87.67
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Attacker attacks Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: -8.0
+Attacker Value: 91.67
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -8.0
+Value of Attacker: 91.67
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 2
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 10 ----------
+Round 0
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Attacker attacks Node with label <Kryptographie MobileApp> and ID <6>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 97.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Attacker attacks Node with label <Public & Privat Key ausgetauscht> and ID <62>
+~~~~ Result: 
+Defender Value: 47.0
+Attacker Value: 101.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Kryptographie MobileApp> and ID <6>
+~~~~ Result: 
+Defender Value: 31.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Attacker attacks Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 9.0
+Attacker Value: 103.67
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Attacker attacks Node with label <Kryptographie MobileApp> and ID <6>
+~~~~ Result: 
+Defender Value: -7.0
+Attacker Value: 101.67
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -7.0
+Value of Attacker: 101.67
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 11 ----------
+Round 0
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Noch nicht aufgerufenes Dokument entschlüsselt & gelesen> and ID <60>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Attacker attacks Node with label <Authentifizierung> and ID <22>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 97.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 97.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Attacker attacks Node with label <Information Disclosure WebApp> and ID <20>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 94.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+~~~~ Result: 
+Defender Value: 19.0
+Attacker Value: 0.0
+
+
+########## RESULTS ################
+Winner: Defender
+Value of Defender: 19.0
+Value of Attacker: 0.0
+Played rounds: 4
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 0
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 12 ----------
+Round 0
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 99.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Attacker attacks Node with label <Authentifizierung> and ID <22>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 97.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Attacker attacks Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 22.0
+Attacker Value: 93.34
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Attacker attacks Node with label <Authentifizierung> and ID <22>
+~~~~ Result: 
+Defender Value: 6.0
+Attacker Value: 91.34
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: -10.0
+Attacker Value: 91.01
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -10.0
+Value of Attacker: 91.01
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 13 ----------
+Round 0
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Daten verschlüsselt & Opfer erpresst> and ID <58>
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 99.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Attacker attacks Node with label <Input Validation> and ID <8>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 94.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Attacker attacks Node with label <Einbetten von HTML Code in WebView> and ID <9>
+~~~~ Result: 
+Defender Value: 20.0
+Attacker Value: 90.34
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Attacker attacks Node with label <Daten überschrieben> and ID <37>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 1.0
+Attacker Value: 91.34
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Attacker attacks Node with label <Einbetten von HTML Code in WebView> and ID <9>
+~~~~ Result: 
+Defender Value: -15.0
+Attacker Value: 87.34
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -15.0
+Value of Attacker: 87.34
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 14 ----------
+Round 0
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Daten verschlüsselt & Opfer erpresst> and ID <58>
+Attacker attacks Node with label <Kryptographie Browser> and ID <11>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 98.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Attacker attacks Node with label <Daten Verschlüsselt> and ID <40>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 48.0
+Attacker Value: 100.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Noch nicht aufgerufenes Dokument entschlüsselt & gelesen> and ID <60>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Attacker attacks Node with label <Kryptographie Browser> and ID <11>
+~~~~ Result: 
+Defender Value: 32.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 16.0
+Attacker Value: 99.34
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 0.0
+Attacker Value: 99.34
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: 0.0
+Value of Attacker: 99.34
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 15 ----------
+Round 0
+Defender protects: Node with label <Daten Verschlüsselt> and ID <40>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <Start> and ID <0>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 99.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Attacker attacks Node with label <Kryptographie MobileApp> and ID <6>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 97.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Attacker attacks Node with label <Public & Privat Key ausgetauscht> and ID <62>
+~~~~ Result: 
+Defender Value: 15.0
+Attacker Value: 101.34
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Attacker attacks Node with label <Kryptographie MobileApp> and ID <6>
+~~~~ Result: 
+Defender Value: -1.0
+Attacker Value: 99.34
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -1.0
+Value of Attacker: 99.34
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 0
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 16 ----------
+Round 0
+Defender protects: Node with label <Daten manipuliert> and ID <46>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Attacker attacks Node with label <Unsicherer Export> and ID <7>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 97.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Attacker attacks Node with label <Nichts exportiert - Fail!> and ID <35>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 54.0
+Attacker Value: 93.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Bereits aufgerufenes Dokument gelesen> and ID <59>
+Attacker attacks Node with label <Unsicherer Export> and ID <7>
+~~~~ Result: 
+Defender Value: 38.0
+Attacker Value: 91.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Attacker attacks Node with label <Nichts exportiert - Fail!> and ID <35>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 24.0
+Attacker Value: 87.67
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Dokumente verschlüsselt> and ID <55>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Attacker attacks Node with label <Unsicherer Export> and ID <7>
+~~~~ Result: 
+Defender Value: 8.0
+Attacker Value: 85.67
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <personenbezogene Daten ausgelesen> and ID <45>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: -8.0
+Attacker Value: 85.34
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -8.0
+Value of Attacker: 85.34
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 2
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 17 ----------
+Round 0
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <MobileApp> and ID <1>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Attacker attacks Node with label <Input Validation> and ID <8>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 94.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Brute Force Email & Passwort erfolgreich> and ID <54>
+Defender protects: Node with label <Daten verschlüsselt & Opfer erpresst> and ID <58>
+Attacker attacks Node with label <Einbetten von HTML Code in WebView> and ID <9>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 90.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Pishing> and ID <10>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 88.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Schadhaften Code in WebApp eingebettet> and ID <42>
+Defender protects: Node with label <Daten verschlüsselt & Opfer erpresst> and ID <58>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Attacker attacks Node with label <TOTP Code ausgelesen> and ID <39>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 17.0
+Attacker Value: 89.67
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Attacker attacks Node with label <Pishing> and ID <10>
+~~~~ Result: 
+Defender Value: 1.0
+Attacker Value: 87.67
+---------------------- next round ----------------------
+Round 6
+Defender protects: Node with label <Daten überschrieben> and ID <57>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Attacker attacks Node with label <Einbetten von HTML Code in WebView> and ID <9>
+~~~~ Result: 
+Defender Value: -15.0
+Attacker Value: 83.67
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: -15.0
+Value of Attacker: 83.67
+Played rounds: 6
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 18 ----------
+Round 0
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Attacker attacks Node with label <XSS> and ID <12>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 91.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Defender protects: Node with label <Handynummer ausgelesen> and ID <51>
+Attacker attacks Node with label <BrowserApp> and ID <2>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 91.34
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Defender protects: Node with label <Daten heimlich mitgelesen> and ID <47>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Attacker attacks Node with label <XSS> and ID <12>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 83.34
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Noch nicht aufgerufenes Dokument entschlüsselt & gelesen> and ID <60>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+Defender protects: Node with label <Man-in-the-Middle Proxy eingefügt> and ID <48>
+Attacker attacks Node with label <Private Key aus Browser App ausgelesen> and ID <41>
+Failed to protected node!
+~~~~ Result: 
+Defender Value: 16.0
+Attacker Value: 85.34
+---------------------- next round ----------------------
+Round 5
+Defender protects: Node with label <Nichts exportiert - Fail!> and ID <35>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Defender protects: Node with label <Mitlesen von Dokumentenaustausch> and ID <56>
+Attacker attacks Node with label <XSS> and ID <12>
+~~~~ Result: 
+Defender Value: 0.0
+Attacker Value: 77.34
+
+
+########## RESULTS ################
+Winner: Attacker
+Value of Defender: 0.0
+Value of Attacker: 77.34
+Played rounds: 5
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 1
+END OF SIMULATION
+
+
+
+
+
+
+Starting Game
+---------- Setup ----------
+Start Value Defender: 100.0
+Start Value Attacker: 100.0
+Amount of vertices: 63
+---------- Starting Simulation 19 ----------
+Round 0
+Defender protects: Node with label <Daten überschrieben> and ID <37>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Attacker attacks Node with label <WebApp> and ID <3>
+~~~~ Result: 
+Defender Value: 84.0
+Attacker Value: 99.67
+---------------------- next round ----------------------
+Round 1
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Private Key erfolgreich ausgelesen> and ID <36>
+Defender protects: Node with label <TOTP Code ausgelesen> and ID <39>
+Attacker attacks Node with label <Information Disclosure WebApp> and ID <20>
+~~~~ Result: 
+Defender Value: 68.0
+Attacker Value: 96.67
+---------------------- next round ----------------------
+Round 2
+Defender protects: Node with label <Passwort & Email ausgelesen> and ID <38>
+Defender protects: Node with label <LocaleStorage ausgelesen> and ID <44>
+Defender protects: Node with label <Defacement von Inhalten> and ID <43>
+Attacker attacks Node with label <Brute Force Email & Passwort> and ID <21>
+~~~~ Result: 
+Defender Value: 52.0
+Attacker Value: 95.67
+---------------------- next round ----------------------
+Round 3
+Defender protects: Node with label <Schadhafte Links eingefügt> and ID <49>
+Defender protects: Node with label <Auf unverschlüsselte vivy.com Seite weitergeleitet> and ID <50>
+Defender protects: Node with label <Email & Passwort geprüft> and ID <52>
+Attacker attacks Node with label <Information Disclosure WebApp> and ID <20>
+~~~~ Result: 
+Defender Value: 36.0
+Attacker Value: 92.67
+---------------------- next round ----------------------
+Round 4
+Defender protects: Node with label <Verschlüsselung von Dokumenten & Erpressung> and ID <61>
+Defender protects: Node with label <Mitlesen fehlgeschlagen> and ID <33>
+Defender protects: Node with label <Erfolglose Email Authentifizierung> and ID <53>
+~~~~ Result: 
+Defender Value: 19.0
+Attacker Value: 0.0
+
+
+########## RESULTS ################
+Winner: Defender
+Value of Defender: 19.0
+Value of Attacker: 0.0
+Played rounds: 4
+Successfully protected nodes: 0
+Unsuccessfully protected nodes: 0
+END OF SIMULATION
+
+
+
+
+
+
+END OF EXPERIMENT
