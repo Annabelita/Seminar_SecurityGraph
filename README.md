@@ -1,36 +1,47 @@
-# Intelligente Software Systeme Seminar 
-Sommersemester 2019, Technische Universität Berlin 
+# Intelligente Software Systems Seminar 
+Summer term 2019, Technische Universität Berlin 
 
 ![](aot-logo.png) <img src="tu_logo.png"  width="200" height="150">
 
-##### Betreuer: Dr.-Ing. Stefan Fricke 
-
-## Implementierung
-Klassen: 
-- __CreateCustomFormatter.java__ für den Logger
-- __Vertex.java__ definiert die Eigenschaften eines Knotens im Spielbaums (Wert, Kosten an den Kanten, Name, ID, ...)
-- __Graph.java__ definiert die Methoden des Spielbaums. Enthält die __main Methode__ zum Starten der Simulation. 
-
-## Starten der Simulation
-### Parameter wählen
-Es können 6 Parameter vor Beginn der Simulation gesetzt werden. Eine Anpassung während der Laufzeit ist nicht möglich. 
-Bitte setzten Sie die Parameter wie gewünscht in der __Graph.java__ Klasse in Zeile 1134 - 1139 *(Suche Str + f nach "SETUP PARAMETERS")*
-
-- DEFAULT_PROTECTION_LEVEL: Ein Interger aus der Menge {1, 2, 3}. Entspricht L1, L2 & L3 *(vgl. Seminararbeit S. 4 Def. 2)* 
-- DEFAULT_DEFENDER_VALUE: Startwert der Bewertungsfunktion der Verteidigerin
-- DEFAULT_ATTACKER_VALUE: Startwert der Bewertungsfunktion des Verteidigers
-- nodesToProtect: Ein Integer zwischen 0 und 30 der beschreibt, wie viele Knoten die Verteidigerin pro Runde schützt. 
-- smartProtect: true/false *(vgl. Seminararbeit S. 5 Def. 3)*
-- conditionalNode: true/false  *(vgl. Seminararbeit S. 4 Kapitel 5.1.2)* 
-
-### Starten der Simulation
-Starten Sie die Main Methode in __Graph.java__. 
-Sie können hier als 1. Paramter den Explorations-Algorithmus wählen (__ForwardPropagate__ oder __RandomChoice__). 
+<br>
+<br>
 
 
-## Analyse der Simulation
-Die Ergebnisse jeder Runde der Simulation werden in der logs.txt Datei geloggt. Der Aufbau einer Logdatei ist in der *Seminararbeit auf 
-Seite 4 Kapitel 5.2.* beschrieben. 
+## Implementation
+Classes 
+- __CreateCustomFormatter.java__ for the logger
+- __Vertex.java__ defined the properties of the nodes in the game tree (value, cost, name, ID, ...) 
+- __Graph.java__ defined the methods of the game tree. Contains the __main__ method to start the simulation. 
 
-Tabellarische Aufbereitungen der Logs finden Sie zudem in der Seminararbeit. 
+<br>
+<br>
 
+
+### Set Parameters
+You can set 6 parameters __bevore__ runtime. During runtime params can not be changed. 
+Please set the params in the __Graph.java__ class in rows 1134 - 1139 *(Ctr + f and look for "SETUP PARAMETERS")*
+
+
+- DEFAULT_PROTECTION_LEVEL: A integer in {1, 2, 3}. Is translated to either L1, L2 & L3, representing the protection level *(see seminar paper page 4 Def. 2)* 
+- DEFAULT_DEFENDER_VALUE: Initial value of the defenders value function
+- DEFAULT_ATTACKER_VALUE: Initial value of the attackers value function
+- nodesToProtect: Integer between 0 and 30 that describes how many nodes can be protected by the defender in each round 
+- smartProtect: true/false *(see seminar paper page 5 Def. 3)*
+- conditionalNode: true/false  *(see seminar paper page 4 chapter 5.1.2)* 
+
+<br>
+<br>
+
+### Starting the Simulation
+Run the main method in __Graph.java__. 
+
+The first param is used to choose the exploration algorithm (__ForwardPropagate__ oder __RandomChoice__). 
+
+<br>
+<br>
+
+
+## Simulation Analysis
+
+The results of each simulation round are logged in __logs.txt__. You can read more about the structure of the
+logfile in my seminar paper (page 4, chapter 5.2)
