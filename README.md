@@ -25,7 +25,7 @@ The full game tree includes 3 sub-trees:
 * MobileApp
 
 
-<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/game_tree.png" width="500">
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/game_tree.png" width="900">
 
 <br>
 <br>
@@ -36,7 +36,7 @@ You can set 6 parameters __bevore__ runtime. During runtime params can not be ch
 Please set the params in the __Graph.java__ class in rows 1134 - 1139 *(Ctr + f and look for "SETUP PARAMETERS")*
 
 
-<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/settings.png" width="350">
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/settings.png" width="500">
 
 <br>
 
@@ -53,7 +53,7 @@ The higher the amount of protected nodes the higher the chances for the defender
 plot shows that from a total of 30 protectable nodes the likelihod to protectful successful first increases above 20% if the defender
 decides to protect more than 15 nodes (meaning more than half of the nodes):
 
-<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/probability.png" width="350">
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/probability.png" width="500">
 
 <br>
 <br>
@@ -73,11 +73,11 @@ The results of each simulation round are logged in __logs.txt__. You can read mo
 logfile in my seminar paper (page 4, chapter 5.2)
 
 
-<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table1.png" width="350">
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table1.png" width="400">
 
-<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table2.png" width="350">
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table2.png" width="400">
 
 
 The best strategy for the defender can be derived using the MiniMax algorithm (more details in the seminar paper):
 
-<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/strategie.png" width="350">
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/strategie.png" width="800">
