@@ -73,9 +73,11 @@ The results of each simulation round are logged in __logs.txt__. You can read mo
 logfile in my seminar paper (page 4, chapter 5.2)
 
 
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table2.png" width="400">
+
 <img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table1.png" width="400">
 
-<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table2.png" width="400">
+
 
 
 The best strategy for the defender can be derived using the MiniMax algorithm (more details in the seminar paper):
