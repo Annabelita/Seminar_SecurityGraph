@@ -48,6 +48,14 @@ Please set the params in the __Graph.java__ class in rows 1134 - 1139 *(Ctr + f 
 - **conditionalNode**: true/false  *(see seminar paper page 4 chapter 5.1.2)* 
 
 <br>
+
+The higher the amount of protected nodes the higher the chances for the defender to protect the application successfully. The following
+plot shows that from a total of 30 protectable nodes the likelihod to protectful successful first increases above 20% if the defender
+decides to protect more than 15 nodes (meaning more than half of the nodes):
+
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/probability.png" width="350">
+
+<br>
 <br>
 
 ### Starting the Simulation
@@ -68,3 +76,8 @@ logfile in my seminar paper (page 4, chapter 5.2)
 <img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table1.png" width="350">
 
 <img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/table2.png" width="350">
+
+
+The best strategy for the defender can be derived using the MiniMax algorithm (more details in the seminar paper):
+
+<img src="https://github.com/Annabelita/Seminar_SecurityGraph/blob/master/images/strategie.png" width="350">
